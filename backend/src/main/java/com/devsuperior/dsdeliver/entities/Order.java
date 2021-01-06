@@ -45,6 +45,7 @@ public class Order implements Serializable{
 	@Setter
 	private OrderStatus status;
 	
+	//Notacao necessaria para criar a tabela que une os pedidos e produtos
 	@ManyToMany
 	@JoinTable(name = "tb_order_product", 
 		joinColumns = @JoinColumn(name = "order_id"), 
