@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root {
+    --primary-color: #da5c5c;
+    --primary-hover-color: #a74b4b;
+    --dark-color: #263238;
+    --secondary-color: #9E9E9E;
+    --light-color: #F5F5F5;
+}
+
+
+/* Reseta a margem  e o padding do html*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Fonte escolhida*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Tira barra do link<a>*/
+
+a {
+    text-decoration: none;
+}
