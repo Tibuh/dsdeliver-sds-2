@@ -6,4 +6,10 @@ interface Product {
     imageUri: string
 }
 
-export type {Product}
+interface OrderLocationData {
+    latitude: number;
+    longitude: number;
+    address: string
+}
+
+export type { Product, OrderLocationData }
