@@ -12,4 +12,13 @@ interface OrderLocationData {
     address: string
 }
 
-export type { Product, OrderLocationData }
+type ProductId = {
+    id: number;
+}
+
+type OrderPayLoad = {
+    products: ProductId[]
+
+} & OrderLocationData;
+ 
+export type { Product, OrderLocationData, ProductId, OrderPayLoad }
